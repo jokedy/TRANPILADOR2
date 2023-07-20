@@ -1,0 +1,17 @@
+enterno factorial(entero n) {
+    si (n == 0) {
+        retornar 1;
+    } sino {
+        retornar n * factorial(n - 1);
+    }
+}
+
+entero main() {
+    entero numero = 5;
+    entero resultado = factorial(numero);
+
+    imprimir("El factorial de ", numero, " es: ", resultado);
+
+    retornar 0;
+}
+hasta
